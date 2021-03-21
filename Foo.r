@@ -25,4 +25,17 @@ cleve <- read.table("Datasets/cleve.data", na.strings = c("?"))
 iris <- read.csv("Datasets/iris.data");
 
 cleve <- fill_missing(cleve)
-cleve
+
+plot(iris[, 1],
+     iris[, 2],
+     xlab = "sepal length",
+     ylab = "sepal width")
+
+hist(iris[, 3], xlab = "petal width", col = "green", border ="red")
+
+plot(cleve[, 1],
+    cleve[, 4],
+    xlab = "Age",
+    ylab = "Cholesterol")
+
+hist(cleve[, 1], xlab = "Age")
