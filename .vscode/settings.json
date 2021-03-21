@@ -1,0 +1,11 @@
+{
+    "r.bracketedPaste": true,
+    "r.lsp.path": "C:/Program Files/R/R-4.0.4/bin/x64/R.exe",
+    "r.lsp.debug": true,
+    "r.lsp.diagnostics": true,
+    "r.rterm.option": [
+    "--no-save",
+    "--no-restore",
+    "--r-binary=C:/Program Files/R/R-4.0.4/bin/x64/Rscript.exe"
+    ],
+}
